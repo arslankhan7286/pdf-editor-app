@@ -1,0 +1,70 @@
+/* Global CSS */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.auth-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.auth-form form {
+  padding: 30px;
+  border-radius: 4px;
+  width: 290px;
+  margin: 0 auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+label {
+  font-size: 20px;
+  font-weight: 700;
+}
+.auth-form form .token-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.auth-form form .token-input input {
+  width: 185px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #65b9db;
+  color: #fff;
+  outline: none;
+}
+
+.main-file {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main-file .upload-file {
+  padding: 30px;
+  border-radius: 4px;
+  width: 320px;
+  margin: 0 auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main-file .upload-file .form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.pdf-viewer-file {
+  width: 100%;
+}
